@@ -1,0 +1,11 @@
+<mvc:View controllerName="nl.qualiture.ui5html2rendermanagergenerator.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <TextArea width="100%" height="20%" value="{View>/html}" />
+            <Button text="Convert" press="onPressConvertHTML" />
+            <TextArea width="100%" height="75%" value="{View>/generated}" />
+        </content>
+    </Page>
+</mvc:View>

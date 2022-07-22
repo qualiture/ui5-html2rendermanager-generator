@@ -1,0 +1,26 @@
+{
+  "name": "ui5-html2rendermanager-generator",
+  "version": "0.0.1",
+  "private": true,
+  "description": "UI5 HTML-to-RenderManager generator",
+  "keywords": [
+    "ui5",
+    "openui5",
+    "sapui5"
+  ],
+  "main": "webapp/index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "@ui5/cli": "^2.14.1",
+    "@sap/ux-ui5-tooling": "1"
+  },
+  "scripts": {
+    "ui5start": "ui5 serve -o index.html"
+  },
+  "ui5": {
+    "dependencies": [
+      "@sap/ux-ui5-tooling"
+    ]
+  },
+  "sapuxLayer": "CUSTOMER_BASE"
+}
